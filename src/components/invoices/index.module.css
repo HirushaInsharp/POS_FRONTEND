@@ -1,0 +1,87 @@
+.viewForm {
+  margin-top: 20px;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.bottomGrnFormInput {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.bottomGrnFormInput input {
+  padding: 10px;
+  background: #eee;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+.bottomGrnFormInput select {
+  padding: 10px;
+  background: #eee;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+.buttonGroup {
+  display: flex;
+  align-items: flex-end;
+}
+.buttonGroup button {
+  padding: 10px;
+  height: max-content;
+  cursor: pointer;
+  border-radius: 10px;
+  width: max-content;
+}
+
+.submitButton {
+  border: none;
+  background: #ee8c21;
+  color: #fff;
+}
+
+.invoiceTable {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.totalDiv {
+  padding: 20px 30px;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  background: #f4953071;
+  border-radius: 10px;
+}
+
+.error {
+  color: red;
+}
+
+.totalDetails {
+  display: flex;
+  justify-content: space-between;
+}
+
+.totalDetails :nth-child(1) {
+  font-weight: 600;
+}
+
+.buttonGroup2 {
+  display: flex;
+  gap: 30px;
+}
+
+.buttonGroup2 button {
+  width: 20%;
+  padding: 10px;
+  height: max-content;
+  cursor: pointer;
+  border-radius: 10px;
+}

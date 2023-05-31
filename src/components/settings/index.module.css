@@ -1,0 +1,21 @@
+.customerTopDiv {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .buttonGroup {
+    display: flex;
+  }
+  
+  .buttonGroup button {
+    padding: 10px 20px;
+    height: max-content;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  .addButton {
+    border: none;
+    background: #ee8c21;
+    color: #fff;
+  }
+  

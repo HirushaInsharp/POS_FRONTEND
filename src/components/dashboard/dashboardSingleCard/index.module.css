@@ -1,0 +1,30 @@
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid #ee8c21;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.mainDiv:hover {
+  cursor: pointer;
+  box-shadow: rgba(238, 140, 33, 0.2) 0px 10px 20px,
+    rgba(238, 140, 33, 0.23) 0px 6px 6px;
+  transition: 0.5s all;
+}
+
+.name {
+  font-size: 32px;
+}
+
+.amount {
+  color: rebeccapurple;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.componentDiv {
+}

@@ -1,0 +1,55 @@
+.mainDiv {
+  padding: 30px;
+}
+.viewForm {
+  margin-top: 20px;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.bottomGrnFormInput {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.bottomGrnFormInput input {
+  padding: 10px;
+  background: #eee;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+.bottomGrnFormInput select {
+  padding: 10px;
+  background: #eee;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+.buttonGroup {
+  display: flex;
+  align-items: flex-end;
+}
+.buttonGroup button {
+  padding: 10px;
+  height: max-content;
+  cursor: pointer;
+  border-radius: 10px;
+  width: max-content;
+}
+
+.submitButton {
+  border: none;
+  background: #ee8c21;
+  color: #fff;
+}
+
+.invoiceTable {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

@@ -1,0 +1,38 @@
+.mainDiv {
+  display: grid;
+  grid-template-columns: 0.6fr 3fr;
+  height: 100vh;
+}
+
+.leftDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 10px;
+  width: max-content;
+  overflow: hidden;
+}
+
+.profileDiv {
+  display: flex;
+  gap: 10px;
+}
+.profileImageDiv {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.profileDetailsDiv {
+  font-size: 14px;
+}
+
+.profileDetailsDiv :first-child {
+  font-weight: 600;
+}
+
+.rightDiv {
+  padding: 30px 30px;
+}
+
+.sideMenuDiv {
+  overflow: hidden;
+}
